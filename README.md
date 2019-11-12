@@ -86,6 +86,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.0.1 -- 2019-11-12
+
+    - fix functional typo in service configuration
+    
 - 1.0.0 -- 2019-11-11
 
     - initial commit
