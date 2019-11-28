@@ -58,9 +58,10 @@ $events.methods_collection:
         method: registerListener
         args:
             events:
-                - Light.on_exception_caught
-                - Light_AjaxHandler.on_unhandled_exception_caught
+                - Light.on_unhandled_exception_caught
+                - Light_AjaxHandler.on_controller_exception_caught
                 - Light_AjaxFileUploadManager.on_controller_exception_caught
+                - Light_RealGenerator.on_realform_exception_caught
             listener:
                 instance: @service(exception_handler)
                 callable_method: onExceptionCaught
@@ -86,6 +87,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.1.0 -- 2019-11-28
+
+    - update service configuration, now handles Light_RealGenerator.on_realform_exception_caught event
+    
 - 1.0.1 -- 2019-11-12
 
     - fix functional typo in service configuration
