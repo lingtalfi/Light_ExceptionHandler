@@ -33,6 +33,7 @@ class LightExceptionHandlerService
     {
         $exception = $event->getVar('exception', null, true);
 
+
         /**
          * @var $logger LightLoggerService
          */
