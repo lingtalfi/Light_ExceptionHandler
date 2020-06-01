@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2020-04-10
+2019-11-11 -> 2020-06-01
 
 
 
@@ -30,6 +30,7 @@ Summary
 - Pages
     - [Conception notes](https://github.com/lingtalfi/Light_ExceptionHandler/blob/master/doc/pages/conception-notes.md)
 - [Services](#services)
+- [Related](#related)
 
 
 
@@ -83,11 +84,19 @@ $logger.methods_collection:
 
 
 
+Related
+=============
+
+- [Light_ErrorPop](https://github.com/lingtalfi/Light_ErrorPop/)
+- [Light_ErrorHandler](https://github.com/lingtalfi/Light_ErrorHandler/)
+    
+    
+
 
 History Log
 =============
 
--- 1.2.0 -- 2020-04-10
+-- 1.2.0 -- 2020-06-01
 
     - adapt api for updated Light_AjaxHandler events
     
