@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2020-06-01
+2019-11-11 -> 2020-06-04
 
 
 
@@ -77,7 +77,7 @@ $logger.methods_collection:
                 methods:
                     configure:
                         options:
-                            file: ${app_dir}/log/exception.txt
+                            file: ${app_dir}/log/exceptions/{date}.txt
 
 ```
 
@@ -96,7 +96,7 @@ Related
 History Log
 =============
 
--- 1.2.0 -- 2020-06-01
+- 1.2.0 -- 2020-06-04
 
     - adapt api for updated Light_AjaxHandler events
     
