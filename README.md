@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2021-03-05
+2019-11-11 -> 2021-03-15
 
 
 
@@ -64,12 +64,12 @@ $events.methods_collection:
         method: registerListener
         args:
             events:
-                - Light.on_unhandled_exception_caught
-                - Light_AjaxHandler.on_handle_exception_caught
-                - Light_AjaxFileUploadManager.on_controller_exception_caught
+                - Ling.Light.on_unhandled_exception_caught
+                - Ling.Light_AjaxHandler.on_handle_exception_caught
+                - Ling.Light_AjaxFileUploadManager.on_controller_exception_caught
                 - Light_RealGenerator.on_realform_exception_caught
                 - Light_Server.on_controller_exception_caught
-                - Light_HttpError.on_controller_exception_caught
+                - Ling.Light_HttpError.on_controller_exception_caught
             listener:
                 instance: @service(exception_handler)
                 callable_method: onExceptionCaught
@@ -101,6 +101,10 @@ Related
 
 History Log
 =============
+
+- 1.2.5 -- 2021-03-15
+
+    - update planet to adapt Ling.Light:0.70.0
 
 - 1.2.4 -- 2021-03-05
 

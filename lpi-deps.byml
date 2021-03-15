@@ -29,3 +29,7 @@
 1.2.4: 
     - Ling:Light:0.69.30+
     - Ling:Light_Logger:1.11.5+
+
+1.2.5: 
+    - Ling:Light:0.70.0+
+    - Ling:Light_Logger:1.11.6+
