@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2021-03-15
+2019-11-11 -> 2021-03-19
 
 
 
@@ -59,20 +59,6 @@ exception_handler:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$events.methods_collection:
-    -
-        method: registerListener
-        args:
-            events:
-                - Ling.Light.on_unhandled_exception_caught
-                - Ling.Light_AjaxHandler.on_handle_exception_caught
-                - Ling.Light_AjaxFileUploadManager.on_controller_exception_caught
-                - Light_RealGenerator.on_realform_exception_caught
-                - Light_Server.on_controller_exception_caught
-                - Ling.Light_HttpError.on_controller_exception_caught
-            listener:
-                instance: @service(exception_handler)
-                callable_method: onExceptionCaught
 
 $logger.methods_collection:
     -
@@ -101,6 +87,10 @@ Related
 
 History Log
 =============
+
+- 1.2.6 -- 2021-03-19
+
+    - switch to Ling.Light_Events' open registration system
 
 - 1.2.5 -- 2021-03-15
 

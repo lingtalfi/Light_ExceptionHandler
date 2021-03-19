@@ -33,3 +33,7 @@
 1.2.5: 
     - Ling:Light:0.70.0+
     - Ling:Light_Logger:1.11.6+
+
+1.2.6: 
+    - Ling:Light:0.70.1+
+    - Ling:Light_Logger:1.11.7+
