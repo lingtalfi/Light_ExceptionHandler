@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.2.7 -- 2021-03-19
+
+    - fix open events now in the events directory
+  
 - 1.2.6 -- 2021-03-19
 
     - switch to Ling.Light_Events' open registration system
