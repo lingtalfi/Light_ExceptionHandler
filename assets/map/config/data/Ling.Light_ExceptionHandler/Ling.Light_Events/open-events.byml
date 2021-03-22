@@ -1,0 +1,3 @@
+Ling.Light_RealGenerator.on_realform_exception_caught:
+    - @exception_handler->onExceptionCaught(data, event)
+

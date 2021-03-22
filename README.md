@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2021-03-19
+2019-11-11 -> 2021-03-22
 
 
 
@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.2.8 -- 2021-03-22
+
+    - adapt api to work with Ling.Light_Events:1.10.0
+  
 - 1.2.7 -- 2021-03-19
 
     - fix open events now in the events directory
