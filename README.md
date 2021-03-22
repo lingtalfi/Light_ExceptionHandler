@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.2.9 -- 2021-03-22
+
+    - fix data file not containing all events
+  
 - 1.2.8 -- 2021-03-22
 
     - adapt api to work with Ling.Light_Events:1.10.0
