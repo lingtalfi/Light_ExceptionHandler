@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2021-03-22
+2019-11-11 -> 2021-05-31
 
 
 
@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.2.14 -- 2021-05-31
+
+    - update api to work with Light_PlanetInstaller 2.0.0
+  
 - 1.2.13 -- 2021-05-03
 
     - Update dependencies to Ling.Light_Logger (pushed by SubscribersUtil)
