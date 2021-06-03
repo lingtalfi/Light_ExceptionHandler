@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2021-05-31
+2019-11-11 -> 2021-06-03
 
 
 
@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.2.16 -- 2021-06-03
+
+    - adapt api to work with Light_PlanetInstaller:2.0.4
+  
 - 1.2.15 -- 2021-05-31
 
     - Removing trailing plus in lpi-deps file (to work with Light_PlanetInstaller:2.0.0 api
