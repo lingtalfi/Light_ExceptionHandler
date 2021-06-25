@@ -1,6 +1,6 @@
 Light_ExceptionHandler
 ===========
-2019-11-11 -> 2021-06-03
+2019-11-11 -> 2021-06-25
 
 
 
@@ -56,21 +56,6 @@ exception_handler:
     instance: Ling\Light_ExceptionHandler\Service\LightExceptionHandlerService
 
 
-# --------------------------------------
-# hooks
-# --------------------------------------
-
-$logger.methods_collection:
-    -
-        method: addListener
-        args:
-            channels: exception
-            listener:
-                instance: Ling\Light_Logger\Listener\LightFileLoggerListener
-                methods:
-                    configure:
-                        options:
-                            file: ${app_dir}/log/exceptions/{date}.txt
 ```
 
 
@@ -87,6 +72,10 @@ Related
 
 History Log
 =============
+
+- 1.2.17 -- 2021-06-25
+
+    - update api, now use Ling.Light_Logger open registration system
 
 - 1.2.16 -- 2021-06-03
 
