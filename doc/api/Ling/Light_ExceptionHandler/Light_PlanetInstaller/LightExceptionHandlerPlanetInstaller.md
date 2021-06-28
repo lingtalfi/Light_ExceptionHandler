@@ -4,7 +4,7 @@
 
 The LightExceptionHandlerPlanetInstaller class
 ================
-2019-11-11 --> 2021-06-25
+2019-11-11 --> 2021-06-28
 
 
 
